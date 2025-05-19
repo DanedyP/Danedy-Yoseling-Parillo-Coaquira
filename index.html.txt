@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Personal de Danedy Yoseling Parillo Coaquira</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+    <h1>Hola, soy Danedy Parillo</h1>
+
+    <!-- Foto de perfil-->
+    <img src="https://drive.google.com/uc?export=view&id=1JzuZLytGka87JkpJbOwBvaJp2_JA5bb7" alt="Foto de Danedy Parillo" width="200"> 
+
+    <h2>Información General</h2>
+    <p>Estudio en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo (UCSP)</a>.</p>
+    <p>Sigo la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">Administración de Negocios</a>.</p>
+
+<h2>Cursos</h2>
+<p>Puedes revisar el <a href="https://ucsp.edu.pe/silabos/administracion" target="_blank">sílabo general de Administración</a>.</p>
+<ul>
+    <li>Cálculo de una Variable</li>
+    <li>Historia del Occidente I</li>
+    <li>Filosofía de la Naturaleza</li>
+    <li>Liderazgo</li>
+    <li>Análisis Financiero</li>
+    <li>Comportamiento del Consumidor</li>
+    <li>Pensamiento Computacional — Profesor <strong>Ernesto Cuadros Vargas </strong> (<a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">LinkedIn</a>)</li>
+</ul>
+
+    <h2>Mi LinkedIn</h2>
+    <p>Visita mi perfil en <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">LinkedIn</a>.</p>
+
+
+    <h2>Mi Grupo</h2>
+    <ul>
+        <li><a href="https://jhony241.github.io/Jhon-Ronald-Quispe-Mendoza.github.io/" target="_blank">Jhon Ronald Quispe Mendoza</a></li>
+    </ul>
+
+    <hr>
+    <footer>
+        <p>© 2025 - Página creada por Danedy Yoseling Parillo Coaquira</p>
+    </footer>
+
+</body>
+</html>
