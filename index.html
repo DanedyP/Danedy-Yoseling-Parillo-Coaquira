@@ -2,91 +2,149 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Página Personal de Danedy Yoseling Parillo Coaquira</title>
-    <style>
-        :root {
-            --main-color: #6a0dad;
-            --accent-color: #d4af37;
-            --bg-color: #ffffff;
-            --text-color: #333333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página Personal de Danedy Yoseling Parillo Coaquira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #6a0dad;   /* Morado */
+      --accent-color: #d4af37; /* Dorado */
+      --bg-color: #ffffff;
+      --text-color: #333333;
+    }
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 2rem;
-        }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
 
-        h1, h2 {
-            color: var(--main-color);
-        }
+    header {
+      background-color: var(--main-color);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
 
-        a {
-            color: var(--main-color);
-            text-decoration: none;
-        }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background-color: var(--accent-color);
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    nav a {
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+    }
 
-        footer {
-            margin-top: 2rem;
-            padding-top: 1rem;
-            border-top: 2px solid var(--accent-color);
-            color: var(--main-color);
-            text-align: center;
-            font-size: 0.9rem;
-        }
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-        ul {
-            padding-left: 1.2rem;
-        }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
 
-        img {
-            border: 3px solid var(--accent-color);
-            border-radius: 10px;
-            margin-bottom: 1rem;
-        }
-    </style>
+    h2 {
+      color: var(--main-color);
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    img {
+      display: block;
+      margin: 1rem auto;
+      border: 4px solid var(--accent-color);
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: var(--main-color);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
 
+  <header>
     <h1>Hola, soy Danedy Parillo</h1>
+    <p>Estudiante de Administración y apasionada por el aprendizaje</p>
+  </header>
 
-    <img src="https://drive.google.com/uc?export=view&id=1JzuZLytGka87JkpJbOwBvaJp2_JA5bb7" alt="Foto de Danedy Parillo" width="200"> 
+  <nav>
+    <a href="#info">Información general</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#grupo">Mi grupo</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
 
+  <section id="info">
     <h2>Información General</h2>
+    <img src="https://drive.google.com/uc?export=view&id=1JzuZLytGka87JkpJbOwBvaJp2_JA5bb7" alt="Foto de Danedy Parillo">
     <p>Estudio en la <a href="https://ucsp.edu.pe" target="_blank">Universidad Católica San Pablo (UCSP)</a>.</p>
     <p>Sigo la carrera de <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">Administración de Negocios</a>.</p>
+  </section>
 
+  <section id="cursos">
     <h2>Cursos</h2>
     <p>Puedes revisar el <a href="https://ucsp.edu.pe/silabos/administracion" target="_blank">sílabo general de Administración</a>.</p>
     <ul>
-        <li>Cálculo de una Variable</li>
-        <li>Historia del Occidente I</li>
-        <li>Filosofía de la Naturaleza</li>
-        <li>Liderazgo</li>
-        <li>Análisis Financiero</li>
-        <li>Comportamiento del Consumidor</li>
-        <li>Pensamiento Computacional — Profesor <strong>Ernesto Cuadros Vargas </strong> (<a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">LinkedIn</a>)</li>
+      <li>Cálculo de una Variable</li>
+      <li>Historia del Occidente I</li>
+      <li>Filosofía de la Naturaleza</li>
+      <li>Liderazgo</li>
+      <li>Análisis Financiero</li>
+      <li>Comportamiento del Consumidor</li>
+      <li>Pensamiento Computacional — Profesor <strong>Ernesto Cuadros Vargas</strong> (<a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">LinkedIn</a>)</li>
     </ul>
+  </section>
 
-    <h2>Mi LinkedIn</h2>
-    <p>Visita mi perfil en <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">LinkedIn</a>.</p>
-
+  <section id="grupo">
     <h2>Mi Grupo</h2>
     <ul>
-        <li><a href="https://jhony241.github.io/Jhon-Ronald-Quispe-Mendoza.github.io/" target="_blank">Jhon Ronald Quispe Mendoza</a></li>
-        <li><a href="https://kerensteves.github.io/Keren-page/" target="_blank">Keren Steves</a></li>
+      <li><a href="https://jhony241.github.io/Jhon-Ronald-Quispe-Mendoza.github.io/" target="_blank">Jhon Ronald Quispe Mendoza</a></li>
+      <li><a href="https://kerensteves.github.io/Keren-page/" target="_blank">Keren Steves</a></li>
     </ul>
+  </section>
 
-    <footer>
-        <p>© 2025 - Página creada por Danedy Yoseling Parillo Coaquira</p>
-    </footer>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">Mi perfil en LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Página creada por Danedy Yoseling Parillo Coaquira</p>
+  </footer>
 
 </body>
 </html>
